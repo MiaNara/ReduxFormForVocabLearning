@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
 import vocabReducer from './features/Vocabs';
+
 const store = configureStore({
   reducer: {
     vocabs: vocabReducer,
